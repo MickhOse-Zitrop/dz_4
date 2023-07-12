@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Makasar&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+	<title>Интернет-магазин "Assassin's Creed Store"</title>
+	<script src="https://kit.fontawesome.com/5f2d892adc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="preloader">
+		<svg class="pl" viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+			<defs>
+				<linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">
+					<stop offset="0%" stop-color="hsl(313,90%,55%)" />
+					<stop offset="100%" stop-color="hsl(223,90%,55%)" />
+				</linearGradient>
+				<linearGradient id="pl-grad2" x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0%" stop-color="hsl(313,90%,55%)" />
+					<stop offset="100%" stop-color="hsl(223,90%,55%)" />
+				</linearGradient>
+			</defs>
+			<circle class="pl__ring" cx="100" cy="100" r="82" fill="none" stroke="url(#pl-grad1)" stroke-width="36"
+				stroke-dasharray="0 257 1 257" stroke-dashoffset="0.01" stroke-linecap="round"
+				transform="rotate(-90,100,100)" />
+			<line class="pl__ball" stroke="url(#pl-grad2)" x1="100" y1="18" x2="100.01" y2="182" stroke-width="36"
+				stroke-dasharray="1 165" stroke-linecap="round" />
+		</svg>
+	</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<a class="header__logo" href="">
+					<img src="images/icon.png" alt="">
+					Assassin's Creed Store
+				</a>
+				<nav class="header__list">
+					<li class="header__item">
+						<a href="" class="header__link">
+							<i class="fa-solid fa-bars"></i>
+							<div class="header__label">Каталог</div>
+						</a>
+					</li>
+					<li class="header__item">
+						<a href="" class="header__link">
+							<i class="fa-solid fa-truck"></i>
+							<div class="header__label">Доставка</div>
+						</a>
+					</li>
+					<li class="header__item">
+						<a href="" class="header__link">
+							<i class="fa-solid fa-bucket"></i>
+							<div class="header__label"><span class="">Корзина</span></div>
+						</a>
+					</li>
+					<li class="header__item">
+						<a href="" class="header__link">
+							<i class="fa-solid fa-user"></i>
+							<div class="header__label"><span class="">Профиль</span></div>
+						</a>
+					</li>
+					<li class="header__item">
+						<div id="contacts" style="cursor: pointer;" class="header__link">
+							<i class="fa-solid fa-phone"></i>
+							<div class="header__label"><span class="">Контакты</span></div>
+							<div class="contacts">
+								<ul class="contacts__list">
+									<li class="contacts__item">
+										<i class="fa-solid fa-phone"></i>
+										<a href="tel:+79782156190" class="contacts__link">+7 (978) 215-61-90</a>
+									</li>
+									<li class="contacts__item">
+										<i class="fa-solid fa-location-dot"></i>
+										<a target="_blank"
+											href="https://yandex.ru/maps/977/republic-of-crimea/house/ulitsa_40_let_pobedy_18/Z0oYcANhSEcBQFpvfX1zd31qYQ==/?ll=33.641870%2C45.125459&z=18.03"
+											class="contacts__link">296570</a>
+									</li>
+									<li class="contacts__item">
+										<i class="fa-solid fa-envelope"></i>
+										<a href="mailto: mickhose-zitrop@yandex.ru"
+											class="contacts__link">mickhose-zitrop@yandex.ru</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__intro_block">
+				<div class="main__intro _ibg">
+					<img src="images/intro1.jpg" alt="">
+					<div class="dark"></div>
+				</div>
+			</div>
+			<div class=" main__container _container">
+				<div class="banner">
+					<a href="">
+						<img src="images/products/banner.png" alt="">
+					</a>
+				</div>
+				<div class="main__title">
+					<div class="main__title_text">Игры</div>
+					<a href="" class="main__title_button"><i class="fa-solid fa-chevron-down"></i></a>
+				</div>
+				<div class="main__row">
+					<div class="main__section">
+						<div class="section__price">1999 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/unity.png" alt="Unity">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Assassin's Creed Unity</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">2099₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/syndicate.png" alt="Syndicate">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Assassin's Creed Syndicate</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">2499 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/origins.png" alt="Origins">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Assassin's Creed Origins</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">2799 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/odyssey.png" alt="Odyssey">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Assassin's Creed Odyssey</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">2999 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/valhalla.png" alt="Valhalla">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Assassin's Creed Valhalla</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="main__title">
+					<div class="main__title_text">Коллекционные предметы</div>
+					<a href="" class="main__title_button"><i class="fa-solid fa-chevron-down"></i></a>
+				</div>
+				<div class="main__row">
+					<div class="main__section">
+						<div class="section__price">2699 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/ezio.jpg" alt="Ezio">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Статуетка Эцио Аудиторе</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">1499₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/edvard.png" alt="Hidden Blade">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Скрытый клинок Эдварда Кэнуея</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">3199 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/baek.jpg" alt="Baek">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Статуетка Байека из Сивы</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">2499 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/connor.jpg" alt="Connor">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Статуетка Коннора Кэнуея</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">3499 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/syndicate_product.jpg" alt="Walking Stick">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Трость-клинок Джейкоба Фрай</a>
+						</div>
+					</div>
+				</div>
+				<div class="main__title">
+					<div class="main__title_text">Одежда</div>
+					<a href="" class="main__title_button"><i class="fa-solid fa-chevron-down"></i></a>
+				</div>
+				<div class="main__row">
+					<div class="main__section">
+						<div class="section__price">4999 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/altair.png" alt="Altair Costume">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Костюм Альтаира</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">3199₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/coat.jpg" alt="Coat">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Куртка Assassin's Creed</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">1199 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/mask.jpg" alt="Mask">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Маска Assassin's Creed</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">1599 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/scarf.jpg" alt="Scarf">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Шарф Assassin's Creed</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">4299 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/boots.jpg" alt="Boots">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Сапоги Арно Дориана</a>
+						</div>
+					</div>
+				</div>
+				<div class="main__title">
+					<div class="main__title_text">Книги</div>
+					<a href="" class="main__title_button"><i class="fa-solid fa-chevron-down"></i></a>
+				</div>
+				<div class="main__row">
+					<div class="main__section">
+						<div class="section__price">1799 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/book_revelation.jpg" alt="Assassin's Creed Revelations Book">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Оливер Боуден "Откровения"</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">4975 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/book_1.jpg" alt="Assassin's Creed 1 Book">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a style="font-size: 13px;" class="section__title" href="">Оливер Боуден "Тайный крестовый
+								поход"</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">3990 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/book_brotherhood.jpg" alt="Assassin's Creed Brotherhood">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Оливер Боуден "Братство"</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">750 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/book.jpeg" alt="Assassin's Creed">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Кристи Голден "Кредо убийцы"</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">1150 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/book_odyssey.jpg" alt="Assassin's Creed Odyssey">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Гордон Догерти "Одиссея"</a>
+						</div>
+					</div>
+				</div>
+				<div class="main__title">
+					<div class="main__title_text">Аксессуары</div>
+					<a href="" class="main__title_button"><i class="fa-solid fa-chevron-down"></i></a>
+				</div>
+				<div class="main__row">
+					<div class="main__section">
+						<div class="section__price">899 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/rings.jpg" alt="Rings">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Набор колец Assassin's Creed</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">495 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/pendant.jpg" alt="Pendant">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Подвеска Assassin's Creed</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">885 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/bracelet.jpg" alt="Bracelet">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Браслет Assassin's Creed</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">350 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/trinket.jpg" alt="Trinket">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Брелок Assassin's Creed</a>
+						</div>
+					</div>
+					<div class="main__section">
+						<div class="section__price">689 ₽</div>
+						<a href="">
+							<div class="section__image">
+								<img src="images/products/pendent.jpg" alt="Pendent">
+							</div>
+						</a>
+						<div class="section__button">
+							<h3 class="section__button_button">В корзину</h3>
+							<a class="section__title" href="">Кулон Assassin's Creed</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__up">
+				<div class="footer__container _container">
+					<div class="footer__row">
+						<div class="footer__column">
+							<div class="footer__label">ASSASSIN'S CREED STORE</div>
+							<nav class="footer__menu">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Каталог</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Доставка</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Корзина</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Профиль</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__column">
+							<div class="footer__label">КОНТАКТЫ</div>
+							<nav class="footer__menu">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<i class="fa-solid fa-phone"></i>
+										<a href="tel:+79782156190" class="menu-footer__link">+7 (978) 215-61-90</a>
+									</li>
+									<li class="menu-footer__item">
+										<i class="fa-solid fa-location-dot"></i>
+										<a target="_blank"
+											href="https://yandex.ru/maps/977/republic-of-crimea/house/ulitsa_40_let_pobedy_18/Z0oYcANhSEcBQFpvfX1zd31qYQ==/?ll=33.641870%2C45.125459&z=18.03"
+											class="menu-footer__link">296570</a>
+									</li>
+									<li class="menu-footer__item">
+										<i class="fa-solid fa-envelope"></i>
+										<a href="mailto: mickhose-zitrop@yandex.ru"
+											class="menu-footer__link">mickhose-zitrop@yandex.ru</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__column">
+							<div class="footer__label">СОЦСЕТИ</div>
+							<nav class="footer__menu">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<i style="color: rgb(0, 110, 255);" class="fa-brands fa-vk"></i>
+										<a href="https://vk.com/zitrop" target="_blank" class="menu-footer__link">VK</a>
+									</li>
+									<li class="menu-footer__item">
+										<i style="color: cornflowerblue;" class="fa-brands fa-telegram"></i>
+										<a href="https://t.me/zitrop" target="_blank"
+											class="menu-footer__link">Telegram</a>
+									</li>
+									<li class="menu-footer__item">
+										<i style="color: blueviolet;" class="fa-brands fa-discord"></i>
+										<a href="https://discord.gg/h99ea7Sv" target="_blank"
+											class="menu-footer__link">Discord</a>
+									</li>
+									<li class="menu-footer__item">
+										<i style="color: greenyellow;" class="fa-brands fa-whatsapp"></i>
+										<a href="https://wa.me/79785075649" target="_blank"
+											class="menu-footer__link">WhatsApp</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__down">
+				Made with <i class="fa-solid fa-heart"></i> by MickhOse Zitrop
+			</div>
+		</footer>
+		<div class="light"></div>
+		<button class="toTop hidden"><i class="fa-solid fa-chevron-up"></i></button>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(window).on('load', function () {
+			$('.preloader').addClass('hidden')
+		})
+
+		const $header = $(".header")
+		let prevScroll
+		let lastShowPos
+
+		$(window).on("scroll", function () {
+			const scrolled = $(window).scrollTop()
+
+			if (scrolled > 100 && scrolled > prevScroll) {
+				$header.addClass("hidden");
+				lastShowPos = scrolled;
+			} else if (scrolled <= Math.max(lastShowPos - 250, 0)) {
+				$header.removeClass("hidden")
+			}
+			prevScroll = scrolled
+
+			if (scrolled > 400) {
+				$header.addClass("darken")
+				$('.toTop').removeClass("hidden");
+			} else if (scrolled < 400) {
+				$header.removeClass("darken")
+				$('.toTop').addClass("hidden");
+			}
+		})
+
+		$('.section__button').on('mouseover', function () {
+			$(this).parent().addClass('select');
+		});
+		$('.section__button').on('mouseout', function () {
+			$(this).parent().removeClass('select');
+		});
+
+		$('.toTop').on('click', function () {
+			$('html, body').animate({
+				scrollTop: 0
+			}, 500);
+			return false;
+		});
+	</script>
+</body>
+
+</html>
